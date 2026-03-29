@@ -15,6 +15,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rByDn93PUhC28v4P0v8Bjnalr3VaBbRBJ/1lkH5AZ00PKHOoP+jQunA=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ClientLayout>{children}</ClientLayout>
       </body>

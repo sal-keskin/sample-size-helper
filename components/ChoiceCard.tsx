@@ -35,9 +35,7 @@ export function ChoiceCard({ title, description, href, icon }: ChoiceCardProps) 
         </div>
         <div className="flex-shrink-0 text-stone-300 group-hover:text-sage-500 
                         transition-colors duration-200 mt-1">
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
+          <i className="fa fa-chevron-right text-stone-300 group-hover:text-sage-500 transition-colors duration-200" />
         </div>
       </div>
     </Link>

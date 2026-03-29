@@ -26,9 +26,7 @@ export function AttritionToggle({ value, onChange, label, help }: AttritionToggl
                    focus:ring-sage-500 rounded-lg px-2 py-1.5 -ml-2
                    border border-dashed border-stone-300 hover:border-sage-400"
       >
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-        </svg>
+        <i className="fa fa-plus" />
         {displayLabel}
       </button>
     );
@@ -54,9 +52,7 @@ export function AttritionToggle({ value, onChange, label, help }: AttritionToggl
                        focus:outline-none focus:ring-2 focus:ring-sage-500 rounded-lg"
             aria-label="Remove attrition adjustment"
           >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
+            <i className="fa fa-times" />
           </button>
         </div>
       </FieldRow>
