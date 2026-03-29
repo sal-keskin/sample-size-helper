@@ -4,7 +4,7 @@ export const en = {
   appSubtitle: 'A simple, bilingual guide for clinicians planning studies and theses.',
   langToggle: 'Türkçe',
   privacyNote: 'Enter summary values only. Do not enter patient-level or identifying data.',
-  footerText: '© 2025 Study Design & Sample Size Helper. For educational and planning purposes only.',
+  footerText: '© 2026 Study Design & Sample Size Helper by Salih Keskin. For educational and planning purposes only.',
   footerAbout: 'About & Limitations',
   footerPrivacy: 'Privacy',
   backHome: 'Back to Home',

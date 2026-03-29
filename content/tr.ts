@@ -6,7 +6,7 @@ export const tr: typeof en = {
   appSubtitle: 'Çalışma ve tez planlayan klinisyenler için sade, iki dilli bir rehber.',
   langToggle: 'English',
   privacyNote: 'Yalnızca özet değerler girin. Hasta düzeyinde veya kişisel tanımlayıcı veriler girmeyin.',
-  footerText: '© 2025 Çalışma Tasarımı ve Örneklem Büyüklüğü Yardımcısı. Yalnızca eğitim ve planlama amaçlıdır.',
+  footerText: '© 2026 Çalışma Tasarımı ve Örneklem Büyüklüğü Yardımcısı — Salih Keskin. Yalnızca eğitim ve planlama amaçlıdır.',
   footerAbout: 'Hakkında ve Sınırlılıklar',
   footerPrivacy: 'Gizlilik',
   backHome: 'Ana Sayfaya Dön',
