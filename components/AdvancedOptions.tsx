@@ -41,7 +41,15 @@ export function AdvancedOptions({
                    focus:ring-sage-500 rounded-lg px-2 py-1 -ml-2"
         aria-expanded={isOpen}
       >
-        <i className={`fa fa-cog transition-transform duration-200 ${isOpen ? 'fa-spin' : ''}`} />
+        <svg
+          className={`w-4 h-4 transition-transform duration-200 ${isOpen ? 'rotate-90' : ''}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
         {isOpen ? t.hideAdvanced : t.showAdvanced}
       </button>
 
